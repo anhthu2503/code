@@ -1,0 +1,26 @@
+ * SQL:
+Điểm mạnh của SQL : tính toàn vẹn dữ liệu
+Điểm mạnh của NoSQL : nhanh hơn SQL
+Lay du lieu gom cac menh de:
+    -select -> disting
+    -form
+    -join ->like
+    -where
+    -group by
+    -having
+    -order by: ten cot, loai sap xep
+        +ASC: tang dan
+        +DESC: giam dan
+    -limit
+    -union
+bat tap 1.3
+cau 1:
+Trong sql:
+ SELECT ten_nha_xuat_ban,dia_chi_dien_thoai
+ FROM  nha_xuat_ban;
+
+ * Phân trang php & sql:
+ -cách 1: chỉ dùng php
+ -cách 2: chỉ dùng js => search data table jquery không phù hop vs số lượng lớn
+ -cách 3: dùng cả php và js : kết hợp client và server
+ =>Thường sd cách 1 và 3

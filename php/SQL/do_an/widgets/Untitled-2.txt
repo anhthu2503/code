@@ -1,0 +1,38 @@
+npm instal -g scss
+node-sass.cdm
+
+http://localhost:8080/Thuzoi/php/SQL/do_an/?page=loai-sach&id_loai_sach=1
+http://localhost:8080/Thuzoi/php/SQL/do_an/?page=chi_tiet_sach&id_sach=1
+http://localhost:8080/Thuzoi/php/SQL/do_an/?page=gio_hang&id_sach=1
+
+dung cookie khi no REMEMBER
+
+git add.
+git push
+
+HUYNH THU
+huynhanhthithu
+huynh262503
+
+phpmailer-cannet-send-email
+//danh cho viec gui mail ko chay;
+$mail->SMTPDebug = 4;
+
+dung sass va nen thanh css
+cd. \do_an\css
+
+node-sass.cdm .\main_admin.scss\ .\main_admin.css\
+
+****
+php:ngôn ngữ lập trình xử lý ở phía server(backend)
+php: có thể viết ngôn ngữ biến của biến(ex: $$$$$$)
+
+javacsript client có 2 mô hình: DOM(tổ chức cây body-div) , BOM(window, server, dom)
+
+****
+reactjs:
+-package.json: chứa thư viện cài đặt để sd
+-package-lock.json: báo lỗi
+
+Component viết hoa các chữ cái đầu tiên
+Cau truc Component facebook quy dinh
