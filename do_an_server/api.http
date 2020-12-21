@@ -1,0 +1,27 @@
+###
+GET  http://localhost:4000/
+###
+POST http://localhost:4000/
+Content-Type: aplication/json
+
+{
+    "bien": "gia tri"
+}
+###
+GET http://localhost:4000/users
+###
+POST  http://localhost:4000/users
+###
+PUT  http://localhost:4000/users
+###
+DELETE  http://localhost:4000/users/15
+###
+POST http://localhost:4000/user
+Content-Type: application/json
+
+{
+    "name": "Huỳnh Thư",
+    "tai_khoan": "hunynhthu",
+    "mat_khau": "123456789",
+    "email": "anhthu25032001@gmail.com"
+}
