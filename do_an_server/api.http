@@ -1,27 +1,115 @@
+
 ###
-GET  http://localhost:4000/
-###
+GET http://localhost:4000/
+
+####
 POST http://localhost:4000/
-Content-Type: aplication/json
+Content-Type: application/json
 
 {
     "bien": "gia tri"
 }
+
 ###
 GET http://localhost:4000/users
+
 ###
-POST  http://localhost:4000/users
+GET http://localhost:4000/users?s=hung
+
 ###
-PUT  http://localhost:4000/users
+POST http://localhost:4000/users
+
 ###
-DELETE  http://localhost:4000/users/15
+PUT http://localhost:4000/users
+
+###
+DELETE http://localhost:4000/users
+
+
+
+###
+GET http://localhost:4000/user/
+
+###
+GET http://localhost:4000/user/anhthu25032001@gmail.com
+
 ###
 POST http://localhost:4000/user
+Content-Type: application/json
+Authorization: Basic aHV5bmh0aHU6MTIzNDU2
+
+{
+    "name": "Huỳnh Thư",
+    "tai_khoan": "huynhthu",
+    "mat_khau": "123456789",
+    "email": "anhthu25032001@gmail.com"
+}
+###
+POST http://localhost:4000/user/sign-up
 Content-Type: application/json
 
 {
     "name": "Huỳnh Thư",
-    "tai_khoan": "hunynhthu",
+    "tai_khoan": "huynhthu",
     "mat_khau": "123456789",
     "email": "anhthu25032001@gmail.com"
 }
+
+
+###
+POST http://localhost:4000/users
+Content-Type: application/json
+Authorization: Basic aHV5bmh0aHU6MTIzNDU2
+
+[
+    {
+        "name": "Huỳnh Thư",
+        "tai_khoan": "huynhthu",
+        "mat_khau": "123456789",
+        "email": "anhthu25032001@gmail.com"
+    },
+    {
+        "name": "Huỳnh Thư 1",
+        "tai_khoan": "huynhthu",
+        "mat_khau": "123456789",
+        "email": "anhthu1@gmail.com"
+    },
+    {
+        "name": "Huỳnh Thư 2",
+        "tai_khoan": "huynhthu",
+        "mat_khau": "123456789",
+        "email": "anhthu2@gmail.com"
+    }
+]
+
+
+###
+PUT http://localhost:4000/user/anhthu1@gmail.com
+Content-Type: application/json
+
+{
+    "name": "Huỳnh Thư 2",
+    "tai_khoan": "huynhthu",
+    "mat_khau": "123456789",
+    "email": "anhthu2@gmail.com"
+}
+
+
+###
+DELETE http://localhost:4000/user/anhthu2@gmail.com
+Content-Type: application/json
+Authorization: Basic aHV5bmh0aHU6MTIzNDU2
+###
+POST http://localhost:4000/user/logn-in
+Content-Type: application/json
+
+{
+    "tai_khoan": "huynhthu",
+    "mat_khau": "123456789"
+}
+###
+GET http://localhost:4000/movies
+Content-Type: application/json
+###
+GET http://localhost:4000/messages
+Content-Type: application/json

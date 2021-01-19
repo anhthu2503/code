@@ -1,0 +1,5 @@
+request client len server gom url, body, params, header
+
+mạng máy tính gồm :
+    TCP/IP: bắt tay 3 bước
+    UDP: đẩy liên tục
